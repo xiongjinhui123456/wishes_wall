@@ -13,7 +13,7 @@
 
 - **前端**：React.js + Ant Design + CSS
 - **后端**：Node.js + Express.js
-- **数据库**：MongoDB
+- **数据库**：MySql
 - **身份验证**：JWT（JSON Web Token）
 
 ## 安装与使用
