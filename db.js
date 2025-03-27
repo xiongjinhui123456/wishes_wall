@@ -12,4 +12,13 @@ const db = mysql.createPool({
   connectionLimit: 10,
 });
 
+db.getConnection((err, connection) => {
+  if (err) {
+    console.error('数据库连接失败:', err);
+  } else {
+    console.log('数据库连接成功');
+    connection.release();
+  }
+});
+
 export default db.promise();
