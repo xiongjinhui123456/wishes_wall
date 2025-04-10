@@ -6,7 +6,7 @@ import protectedRoutes from "./routes/protected.js";
 
 const app = express();
 const port = 3001;
-const host = '8.138.215.26'; // 绑定到云服务器网络接口
+const host = '0.0.0.0'; // 绑定到云服务器网络接口
 //中间件
 app.use(cors());
 app.use(express.json());
