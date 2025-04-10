@@ -5,7 +5,7 @@ import authRoutes from "./routes/auth.js";
 import protectedRoutes from "./routes/protected.js";
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 //中间件
 app.use(cors());
